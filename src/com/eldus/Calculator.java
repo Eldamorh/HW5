@@ -8,4 +8,7 @@ public class Calculator {
         }
         return sum;
     }
+    public static double multiply(int a, int b){
+        return a*b;
+    }
 }
