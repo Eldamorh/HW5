@@ -1,7 +1,7 @@
 package com.eldus;
 
 public class Calculator {
-    public static int plus(int a, int b){
-        return 0;
+    public static double multiply(int a, int b){
+        return a*b;
     }
 }
