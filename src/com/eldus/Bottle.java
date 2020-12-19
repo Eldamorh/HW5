@@ -18,9 +18,6 @@ public class Bottle {
             return false;
         }
         Bottle bottle = (Bottle) obj;
-        if (!liquid.equals(bottle.liquid) || volume != bottle.volume) {
-            return false;
-        }
-        return true;
+        return liquid.equals(bottle.liquid) && volume == bottle.volume;
     }
 }

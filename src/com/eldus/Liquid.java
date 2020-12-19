@@ -20,9 +20,6 @@ public class Liquid {
             return false;
         }
         Liquid liquid = (Liquid) obj;
-        if (density != liquid.density || color != liquid.color || isSparkling != liquid.isSparkling) {
-            return false;
-        }
-        return true;
+        return density == liquid.density && color == liquid.color && isSparkling == liquid.isSparkling;
     }
 }
